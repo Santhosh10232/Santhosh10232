@@ -1,0 +1,80 @@
+body{
+     background-color:rgb(252, 248, 248);
+    }
+
+
+
+.container{
+    display: block;
+    background-color: rgb(228, 225, 215) ;
+    border: 1px solid black;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.6);;
+    padding: 40px;
+    margin-top: 100px; 
+    width: 400px;
+    height: 550px;
+    
+}
+
+.container h2{
+    font-family: 'Brush Script MT', cursive;
+    font-size: 40px;
+    margin-left: 80px;
+    text-shadow: 2px 2px 4px #5f5a5a;
+
+}
+
+#username{
+    
+    border: 1px solid black;
+    border-radius:5px ;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+#password{
+    border: 1px solid black;
+    border-radius:5px ;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+#email{
+    border: 1px solid black;
+     border-radius:5px ;
+     margin-left: 70px;
+    margin-right: 70px;
+    
+    
+}
+
+#mobile{
+    border: 1px solid black;
+    border-radius:5px ;
+    margin-left: 70px;
+    margin-right: 70px;
+   
+    
+}
+
+#submit{
+     width:150px;
+     margin-left: 85px;
+     margin-right: 70px;
+     box-shadow: 0 4px 8px 0 rgba(36, 88, 167, 0.2), 0 6px 20px 0 rgba(39, 96, 201, 0.19);
+
+}
+
+.Error{
+    font-size: x-small;
+    color:red;
+    margin-left: 70px;
+}
+
+.label{
+    font-family: Copperplate, Papyrus, fantasy;
+    font-weight: bold;
+    margin-left: 70px;
+}
+
