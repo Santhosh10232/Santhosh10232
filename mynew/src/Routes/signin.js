@@ -2,6 +2,7 @@ import React,{useState} from 'react';
 import {useFormik} from 'formik';
 import {Alert,Button} from 'react-bootstrap';
 import axios from 'axios'
+import {useSelector,useDispatch} from 'react-redux'
 
  
 const validate = values =>{
@@ -47,12 +48,11 @@ if(data.data.Message === "User logged in successfully"){
     },
 });
 
+//const 
+
+
  return(
-   
-  
-   
-  
-    <div className="container">
+   <div className="container">
         <h2> Login form</h2><hr/>
         <form onSubmit = {formik.handleSubmit}>
             <div className="label">
@@ -82,8 +82,8 @@ if(data.data.Message === "User logged in successfully"){
               <Button type="submit" id="submit" value="submit">Submit</Button>
               </div>
         </form>
-        {success ? 'loggedIn' : ''}
-        {failed ? 'unable to login' : ''}
+        {success ?<Alert variant ="success"> loggedIn</Alert>: ''}
+        {failed ? <Alert variant="danger">user not logged in</Alert> : ''}
         </div>
         
  )

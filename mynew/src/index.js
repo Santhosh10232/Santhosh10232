@@ -3,12 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import Signup from './App';
 import reportWebVitals from './reportWebVitals';
-
+import { Provider } from 'react-redux';
 import Demo from './Routes/route';
-
+import store from './store'
 ReactDOM.render(
   <React.StrictMode>
+    <Provider store ={store}>
     <Demo />
+    </Provider>
   </React.StrictMode>,
   document.getElementById('root')
 );
